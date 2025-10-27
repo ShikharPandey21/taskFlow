@@ -1,16 +1,28 @@
-# React + Vite
+TASKFLOE:- iam creating this project to practice my react learnings this project will help the team leader to manage a team adding team members giving task to them giveing deadlines to those tasks and many more things main parts for now are 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1.) DASHBOARD:-
+It is the main or you can say the home page of this website this page will show each and every thing happening in the website 
+ but will not allow to edit or to make any changes to do that the team leader has to go to the given section to make the changes 
+ this page will show the following things:-
+1.) a graph that will show the progress of task completion
+2.) completed taskes
+3.) deadline of the task/ priority taskes
+4.) team members
 
-Currently, two official plugins are available:
+2.)TASKS:-
+In this part we can :-
+1.)add tasks
+2.)remove tasks
+3.)edit tasks
+4.)give deadlines to the tasks
+5.)assign tasks 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+3.)MEMBERS:-
+In this part we can:-
+1.)see each team members name 
+2.)add team members
+3.)remove team members
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4.)SETTINGS:-
+There will be only one settings option for now and that will be of theme changing fronm dark to light and vice versa further settings will be addded as i will make this project 

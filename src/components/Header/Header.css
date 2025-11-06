@@ -94,3 +94,54 @@ nav {
     padding: 0.5rem 0;
   }
 }
+
+
+/* SETTINGS DROPDOWN */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-btn {
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.dropdown-btn:hover {
+  color: #058ED9;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 2.2rem;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  min-width: 140px;
+  padding: 0.5rem;
+  z-index: 200;
+}
+
+/* THEME BUTTON */
+.theme-btn {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  padding: 0.5rem 0.3rem;
+  font-size: 0.95rem;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.theme-btn:hover {
+  background-color: #f2f2f2;
+  color: #058ED9;
+}

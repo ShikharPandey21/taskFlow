@@ -1,16 +1,14 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
+import ThemeBtn from "../Settings/themeBtn";
 import "./Header.css";
 
 function Header() {
   const [showDropdown, setShowDropdown] = useState(false);
   const dropdownRef = useRef(null);
 
-  const toggleDropdown = () => {
-    setShowDropdown((prev) => !prev);
-  };
+  const toggleDropdown = () => setShowDropdown((prev) => !prev);
 
-  // Close dropdown on outside click
   useEffect(() => {
     function handleClickOutside(e) {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
@@ -34,15 +32,14 @@ function Header() {
             <li><NavLink to="/tasks">Tasks</NavLink></li>
             <li><NavLink to="/members">Members</NavLink></li>
 
-            {/* Settings Dropdown */}
             <li className="dropdown" ref={dropdownRef}>
               <button className="dropdown-btn" onClick={toggleDropdown}>
-                Settings
+                ⚙️ Settings
               </button>
-
               {showDropdown && (
                 <div className="dropdown-menu">
-                  <button className="theme-btn">Change Theme</button>
+                  {/* ✅ Theme toggle button */}
+                  <ThemeBtn />
                 </div>
               )}
             </li>
